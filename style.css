@@ -1,0 +1,83 @@
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    background-color: white;
+    height: 60px;
+}
+body{
+    margin-left: 475px;
+    margin-right: 475px;
+}
+.calc {
+    display: block;
+    width: 400px;
+}
+
+.screen {
+    display: block;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-family: "futura";
+    font-weight: normal;
+    font-size: 40px;
+    padding-right: 10px;
+    padding-top: 6%;
+    text-align: right;
+    margin: 0px;
+}
+
+section {
+    display: flex;
+    width: 400px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.three-quarter {
+    width: 75%;
+}
+.quarter {
+    width: 25%;
+}
+.half-quarter {
+    width: 50%;
+}
+
+button {
+    background: none;
+    background-color: #E0E0E0;
+    border: solid black 1px;
+    border-left: 0px;
+    border-bottom: 1px;
+    font-family: "futura";
+    font-size: 40px;
+    cursor: pointer;
+    outline: inherit;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+button:hover {
+    background-color: #F5F5F5;
+}
+
+.orange {
+    background-color: #FF8000;
+    border-right: 0px;
+}
+
+.orange:hover {
+    background-color: #FFB266;
+}
+
+
